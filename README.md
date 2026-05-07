@@ -317,6 +317,7 @@ XGBoost გაიმარჯვა:
 ყველა მოდელი registered-ია სრული sklearn **Pipeline**-ის სახით: raw test data-ზე პირდაპირ `predict_proba()`-ს გამოძახება შეიძლება preprocessing-ის გარეშე.
 
 ---
+## ![Final Submission Score](images/final_submission.png)
 
 ## ![Bias-Variance Analysis](images/bias_variance_comparison.png)
 
