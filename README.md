@@ -2,15 +2,8 @@
 
 ## კონკურსის მოკლე მიმოხილვა
 
-[IEEE-CIS Fraud Detection](https://www.kaggle.com/competitions/ieee-fraud-detection) არის Kaggle-ის კომპეტიცია, რომელიც IEEE Computational Intelligence Society-ისა და Vesta Corporation-ის მიერ არის ორგანიზებული. ამოცანაა საბანკო ტრანზაქცია ყალბია (`isFraud=1`) თუ ნამდვილი (`isFraud=0`) — ეს binary classification პრობლემაა.
+[IEEE-CIS Fraud Detection](https://www.kaggle.com/competitions/ieee-fraud-detection) არის Kaggle-ის competition. ამოცანა მდგომარეობს იმაში, რომ უნდა გავარკვიოთ საბანკო ტრანზაქცია ყალბია (`isFraud=1`) თუ ნამდვილი (`isFraud=0`) — ეს binary classification პრობლემაა.
 
-**Dataset სტატისტიკა:**
-- სატრენინგო სეტი: **590,540 ტრანზაქცია**, 434 სვეტი
-- ტესტ სეტი: **506,691 ტრანზაქცია**, 433 სვეტი
-- Fraud rate: **3.50%** — ძლიერ არაბალანსირებული
-- შეფასების მეტრიკა: **ROC-AUC**
-
-Accuracy უსარგებლო მეტრიკაა — "ყველაფერი not fraud"-ის მოდელი 96.5%-იანი Accuracy-ს მიაღწევს. ROC-AUC კი კლასების პროპორციის მიუხედავად სწორად აფასებს მოდელის გამიჯვნის უნარს.
 
 ---
 
